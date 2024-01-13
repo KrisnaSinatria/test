@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+  background-color: white;
+}
+
+.container{
+  width: 85%;
+}
+
+.navbar-fixed{
+  @apply fixed  z-[9999] bg-gray bg-opacity-30 backdrop-blur-[1px] ;
+}
+
+.nav-class{
+  @apply mx-8 flex py-2  group-hover:text-primary md:hover:border-b-2 md:hover:border-white md:group-hover:text-white  text-black md:text-white;
+}
+
+.label{
+  @apply text-xs font-bold mb-2 block sm:text-sm md:text-base lg:text-lg;
+}
+
+.service-box{
+  @apply flex w-2/5 flex-col justify-center gap-2 text-center md:w-[22%];
+}
+
+.cart{
+  @apply my-3 flex w-[30%] font-semibold items-center justify-center rounded-full border-2 border-bg py-2 text-[8px] text-black transition duration-300 hover:scale-110 hover:text-white hover:bg-bg hover:shadow-lg md:text-xs lg:w-[45%];
+}
+
+
