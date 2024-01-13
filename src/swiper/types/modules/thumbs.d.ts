@@ -1,4 +1,4 @@
-import type Swiper from '../swiper-class.d.ts';
+import type Swiper from '../swiper-class';
 
 export interface ThumbsMethods {
   /**
@@ -17,7 +17,7 @@ export interface ThumbsMethods {
   init(): boolean;
 }
 
-export interface ThumbsEvents {}
+export interface ThumbsEvents { }
 
 export interface ThumbsOptions {
   /**

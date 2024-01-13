@@ -1,4 +1,4 @@
-import type Swiper from '../swiper-class.d.ts';
+import type Swiper from '../swiper-class';
 
 export interface ControllerMethods {
   /**
@@ -8,7 +8,7 @@ export interface ControllerMethods {
   control?: Swiper | Swiper[];
 }
 
-export interface ControllerEvents {}
+export interface ControllerEvents { }
 
 export interface ControllerOptions {
   /**

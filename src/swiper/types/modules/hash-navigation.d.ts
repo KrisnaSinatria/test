@@ -1,6 +1,6 @@
-import type Swiper from '../swiper-class.d.ts';
+import type Swiper from '../swiper-class';
 
-export interface HashNavigationMethods {}
+export interface HashNavigationMethods { }
 
 export interface HashNavigationEvents {
   /**
